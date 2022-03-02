@@ -1,0 +1,120 @@
+#Container{
+margin: 0 auto;
+width: 90%;
+min-height: 800px;
+background: #ffffff;
+}
+#Header{
+margin-top: 20px;
+margin-left: 4%;
+width: 80%;
+height: 100px;
+/* background: red; */
+}
+#Logo{
+background: #dbffad;
+width: 10%;
+height: 100%;
+float: left;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0px solid #1C6EA4;
+border-radius: 20px ;
+}
+#HeaderTitle{
+margin-left: 10px ;
+float:left;
+width: 88%;
+height: 100%;
+font-family: "Bodoni MT";
+font-size: 30px;
+background: #3e5d7d;
+color: white;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0px solid #1C6EA4;
+border-radius: 40px 8px 40px 0px;
+}
+#Navbar{
+width: 100%;
+text-align: center;
+background: #33757d;
+border: 0px solid #1C6EA4;
+border-radius: 40px 8px 40px 0px;
+}
+#Navbar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+display: flex;
+justify-content: space-between;
+}
+#Navbar li {
+float: left;
+border-color: white;
+border: 1px solid white;
+width: 16%;
+border-radius: 40px 8px 40px 0px;
+}
+#Navbar li a {
+text-align: center;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+border-radius: 40px 8px 40px 0px;
+}
+#Navbar li a:hover:not(.active)­ {
+background-color: #0eacff;
+border-radius: 40px 8px 40px 0px;
+}
+#Navbar .active {
+background-color: #267d16;
+border-radius: 40px 8px 40px 0px;
+}
+
+/*==Nav End==*/
+
+/*==main==*/
+
+.main{
+	display: flex;
+	margin-top: 20px;
+}
+.main-left{
+	flex-basis: 25%;
+}
+.main-middle{
+	flex-basis: 58%;
+	margin-left: 10px;
+}
+.main-right{
+	flex-basis: 25%;
+}
+h3.border-box {
+    background-color: antiquewhite;
+    padding: 9px 5px;
+}
+
+/*==main End==*/
+
+p.f-font {
+    text-align: center;
+}
+
+.footer{
+font-family:sans-ser­if;
+color:#fff;
+font-size: 25px;
+width: 100%;
+background:purple;
+min-height: 50px;
+
+
+}
